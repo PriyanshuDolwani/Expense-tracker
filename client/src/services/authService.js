@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL=`http://127.0.0.1:5001/api/auth`;
+const API_URL=`http://localhost:5005/api/auth`;
 
 export const register=async (userData)=>{
     const response=await axios.post(
